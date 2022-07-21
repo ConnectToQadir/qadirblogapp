@@ -1,0 +1,39 @@
+.header{
+    margin-top: 60px;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.headerTitleSm{
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    position: absolute;
+    top:18%;
+}
+
+.headerTitleLg{
+    font-size: 100px;
+    color: rgb(60, 60, 60);
+    position: absolute;
+    top:20%;
+    margin-top: 5px;
+}
+
+.headerImgDiv{
+    width:100%;
+    height: 450px;
+    object-fit: cover;
+    margin-top: 60px;
+    background-image: url(../../../public/Images/headerImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+

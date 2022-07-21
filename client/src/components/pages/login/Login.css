@@ -1,0 +1,74 @@
+.login{
+    width:100%;
+    height: 91.4vh;
+    background-image: url(../../../../public/Images/RegisterImg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .topBtnRegister{
+    position: absolute;
+    top:80px;
+    right: 30px;
+    z-index: 100;
+    padding:6px 10px;
+    color: #fff;
+    border-radius: 10px;
+    border:1px solid rgb(188, 188, 188);
+    cursor: pointer;
+    background-color: rgb(176, 13, 89);
+}
+
+.login .wrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow:0px 1px 20px 5px rgb(0 0 0 / 15%);
+    width:250px;
+    border:.5px solid rgb(0 0 0 / 25%);
+    padding:30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 85%);
+}
+
+.login .wrapper input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 1px solid rgb(0 0 0 / 45%);
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+.login .wrapper input:focus{
+    outline: none;
+}
+
+.login .wrapper h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login .wrapper button{
+    padding:6px 0px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(3, 107, 105);
+    cursor: pointer;
+    transition: .5s;
+    color: #fff;
+    font-size: 18px;
+}
+
+.login .wrapper button:disabled{
+    cursor:not-allowed;
+    background-color: rgb(136, 255, 209);
+}
+
+.login .wrapper button:hover{
+    opacity: .9;
+}
